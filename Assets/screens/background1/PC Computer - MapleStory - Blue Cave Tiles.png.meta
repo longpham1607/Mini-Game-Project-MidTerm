@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: e817eab6a41b6eb488e4c08a319df8d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2725950101242459238
+    second: PC Computer - MapleStory - Blue Cave Tiles_0
+  - first:
+      213: -8505734249269727981
+    second: PC Computer - MapleStory - Blue Cave Tiles_1
+  - first:
+      213: 2579938610751227302
+    second: PC Computer - MapleStory - Blue Cave Tiles_2
+  - first:
+      213: 4779074784240333415
+    second: PC Computer - MapleStory - Blue Cave Tiles_3
+  - first:
+      213: -2553993777631700591
+    second: PC Computer - MapleStory - Blue Cave Tiles_4
+  - first:
+      213: -7814162278070272092
+    second: PC Computer - MapleStory - Blue Cave Tiles_5
+  - first:
+      213: -3587172400374422511
+    second: PC Computer - MapleStory - Blue Cave Tiles_6
+  - first:
+      213: 667288981108878358
+    second: PC Computer - MapleStory - Blue Cave Tiles_7
+  - first:
+      213: 1752251896019642755
+    second: PC Computer - MapleStory - Blue Cave Tiles_8
+  - first:
+      213: 5060627479262773451
+    second: PC Computer - MapleStory - Blue Cave Tiles_9
+  - first:
+      213: 2146787369281059199
+    second: PC Computer - MapleStory - Blue Cave Tiles_10
+  - first:
+      213: -7018655753584170238
+    second: PC Computer - MapleStory - Blue Cave Tiles_11
+  - first:
+      213: -7998398566291597904
+    second: PC Computer - MapleStory - Blue Cave Tiles_12
+  - first:
+      213: -4429727142684892348
+    second: PC Computer - MapleStory - Blue Cave Tiles_13
+  - first:
+      213: 6980278465314367619
+    second: PC Computer - MapleStory - Blue Cave Tiles_14
+  - first:
+      213: -2412227631163983186
+    second: PC Computer - MapleStory - Blue Cave Tiles_15
+  - first:
+      213: 4692606729974530425
+    second: PC Computer - MapleStory - Blue Cave Tiles_16
+  - first:
+      213: -1991473073080484115
+    second: PC Computer - MapleStory - Blue Cave Tiles_17
+  - first:
+      213: -9144282597479606107
+    second: PC Computer - MapleStory - Blue Cave Tiles_18
+  - first:
+      213: -837068641885351017
+    second: PC Computer - MapleStory - Blue Cave Tiles_19
+  - first:
+      213: 3958001404984185250
+    second: PC Computer - MapleStory - Blue Cave Tiles_20
+  - first:
+      213: 1381669176438231618
+    second: PC Computer - MapleStory - Blue Cave Tiles_21
+  - first:
+      213: -2651101224339123606
+    second: PC Computer - MapleStory - Blue Cave Tiles_22
+  - first:
+      213: 4477563464177292042
+    second: PC Computer - MapleStory - Blue Cave Tiles_23
+  - first:
+      213: -3149178973608213314
+    second: PC Computer - MapleStory - Blue Cave Tiles_24
+  - first:
+      213: -6968225841181325819
+    second: PC Computer - MapleStory - Blue Cave Tiles_25
+  - first:
+      213: -4604695050810636545
+    second: PC Computer - MapleStory - Blue Cave Tiles_26
+  - first:
+      213: -8496938539573801406
+    second: PC Computer - MapleStory - Blue Cave Tiles_27
+  - first:
+      213: -5890965577281359603
+    second: PC Computer - MapleStory - Blue Cave Tiles_28
+  - first:
+      213: 4922122449084430837
+    second: PC Computer - MapleStory - Blue Cave Tiles_29
+  - first:
+      213: -4656609414241198238
+    second: PC Computer - MapleStory - Blue Cave Tiles_30
+  - first:
+      213: 3715640286613422810
+    second: PC Computer - MapleStory - Blue Cave Tiles_31
+  - first:
+      213: 1510274534505762165
+    second: PC Computer - MapleStory - Blue Cave Tiles_32
+  - first:
+      213: -6426871102215699968
+    second: PC Computer - MapleStory - Blue Cave Tiles_33
+  - first:
+      213: -1853696722637729746
+    second: PC Computer - MapleStory - Blue Cave Tiles_34
+  - first:
+      213: 447625402483319706
+    second: PC Computer - MapleStory - Blue Cave Tiles_35
+  - first:
+      213: -2073865041701629598
+    second: PC Computer - MapleStory - Blue Cave Tiles_36
+  - first:
+      213: 1708933382421464563
+    second: PC Computer - MapleStory - Blue Cave Tiles_37
+  - first:
+      213: -7283985755724879150
+    second: PC Computer - MapleStory - Blue Cave Tiles_38
+  - first:
+      213: -8950901356308227395
+    second: PC Computer - MapleStory - Blue Cave Tiles_39
+  - first:
+      213: -3483905393987073778
+    second: PC Computer - MapleStory - Blue Cave Tiles_40
+  - first:
+      213: 262174850538349928
+    second: PC Computer - MapleStory - Blue Cave Tiles_41
+  - first:
+      213: -8146076701638620005
+    second: PC Computer - MapleStory - Blue Cave Tiles_42
+  - first:
+      213: -911795504960466689
+    second: PC Computer - MapleStory - Blue Cave Tiles_43
+  - first:
+      213: -1473592244758871686
+    second: PC Computer - MapleStory - Blue Cave Tiles_44
+  - first:
+      213: -2724044208147182233
+    second: PC Computer - MapleStory - Blue Cave Tiles_45
+  - first:
+      213: -4620710624908141822
+    second: PC Computer - MapleStory - Blue Cave Tiles_46
+  - first:
+      213: 7337537414016695793
+    second: PC Computer - MapleStory - Blue Cave Tiles_47
+  - first:
+      213: -8919155097312532630
+    second: PC Computer - MapleStory - Blue Cave Tiles_48
+  - first:
+      213: -3325931946055855443
+    second: PC Computer - MapleStory - Blue Cave Tiles_49
+  - first:
+      213: 3139414949949860478
+    second: PC Computer - MapleStory - Blue Cave Tiles_50
+  - first:
+      213: -4993221587924069522
+    second: PC Computer - MapleStory - Blue Cave Tiles_51
+  - first:
+      213: -2129360840904059809
+    second: PC Computer - MapleStory - Blue Cave Tiles_52
+  - first:
+      213: -3200395103049871957
+    second: PC Computer - MapleStory - Blue Cave Tiles_53
+  - first:
+      213: 908715099965728103
+    second: PC Computer - MapleStory - Blue Cave Tiles_54
+  - first:
+      213: -7135831138322685415
+    second: PC Computer - MapleStory - Blue Cave Tiles_55
+  - first:
+      213: -7780555556933726200
+    second: PC Computer - MapleStory - Blue Cave Tiles_56
+  - first:
+      213: 8051698388520085137
+    second: PC Computer - MapleStory - Blue Cave Tiles_57
+  - first:
+      213: 75627702926301557
+    second: PC Computer - MapleStory - Blue Cave Tiles_58
+  - first:
+      213: -3384724376492301368
+    second: PC Computer - MapleStory - Blue Cave Tiles_59
+  - first:
+      213: 6086580350183736801
+    second: PC Computer - MapleStory - Blue Cave Tiles_60
+  - first:
+      213: -8199510956500568107
+    second: PC Computer - MapleStory - Blue Cave Tiles_61
+  - first:
+      213: 6027812489518943189
+    second: PC Computer - MapleStory - Blue Cave Tiles_62
+  - first:
+      213: 4289787221575023496
+    second: PC Computer - MapleStory - Blue Cave Tiles_63
+  - first:
+      213: -7724265432800420373
+    second: PC Computer - MapleStory - Blue Cave Tiles_64
+  - first:
+      213: 4189078736168038708
+    second: PC Computer - MapleStory - Blue Cave Tiles_65
+  - first:
+      213: -3161706327642072976
+    second: PC Computer - MapleStory - Blue Cave Tiles_66
+  - first:
+      213: 9092846733702729296
+    second: PC Computer - MapleStory - Blue Cave Tiles_67
+  - first:
+      213: 8412940079677623741
+    second: PC Computer - MapleStory - Blue Cave Tiles_68
+  - first:
+      213: -778902481124672124
+    second: PC Computer - MapleStory - Blue Cave Tiles_69
+  - first:
+      213: 9028192358872899629
+    second: PC Computer - MapleStory - Blue Cave Tiles_70
+  - first:
+      213: -4797143897860061429
+    second: PC Computer - MapleStory - Blue Cave Tiles_71
+  - first:
+      213: 7637536357358014641
+    second: PC Computer - MapleStory - Blue Cave Tiles_72
+  - first:
+      213: 1833132518645987624
+    second: PC Computer - MapleStory - Blue Cave Tiles_73
+  - first:
+      213: 4283369913426204291
+    second: PC Computer - MapleStory - Blue Cave Tiles_74
+  - first:
+      213: -4699902867654253843
+    second: PC Computer - MapleStory - Blue Cave Tiles_75
+  - first:
+      213: -3480987554771477875
+    second: PC Computer - MapleStory - Blue Cave Tiles_76
+  - first:
+      213: -5597700389140811578
+    second: PC Computer - MapleStory - Blue Cave Tiles_77
+  - first:
+      213: -4871302893556264347
+    second: PC Computer - MapleStory - Blue Cave Tiles_78
+  - first:
+      213: 5737804156275687540
+    second: PC Computer - MapleStory - Blue Cave Tiles_79
+  - first:
+      213: -1117665284634719755
+    second: PC Computer - MapleStory - Blue Cave Tiles_80
+  - first:
+      213: -5090070856127960033
+    second: PC Computer - MapleStory - Blue Cave Tiles_81
+  - first:
+      213: -4235006624406830232
+    second: PC Computer - MapleStory - Blue Cave Tiles_82
+  - first:
+      213: 1432926916147695235
+    second: PC Computer - MapleStory - Blue Cave Tiles_83
+  - first:
+      213: 2607684717253081448
+    second: PC Computer - MapleStory - Blue Cave Tiles_84
+  - first:
+      213: -2913891628467033437
+    second: PC Computer - MapleStory - Blue Cave Tiles_85
+  - first:
+      213: -3061147757721607943
+    second: PC Computer - MapleStory - Blue Cave Tiles_86
+  - first:
+      213: -7122199731165696284
+    second: PC Computer - MapleStory - Blue Cave Tiles_87
+  - first:
+      213: -3254844656616205668
+    second: PC Computer - MapleStory - Blue Cave Tiles_88
+  - first:
+      213: -8323710100344991623
+    second: PC Computer - MapleStory - Blue Cave Tiles_89
+  - first:
+      213: -4072603927431286745
+    second: PC Computer - MapleStory - Blue Cave Tiles_90
+  - first:
+      213: -3246855926305869500
+    second: PC Computer - MapleStory - Blue Cave Tiles_91
+  - first:
+      213: 8684260463652744004
+    second: PC Computer - MapleStory - Blue Cave Tiles_92
+  - first:
+      213: 6437014618025598657
+    second: PC Computer - MapleStory - Blue Cave Tiles_93
+  - first:
+      213: -8449780738665444906
+    second: PC Computer - MapleStory - Blue Cave Tiles_94
+  - first:
+      213: -8456454539250484375
+    second: PC Computer - MapleStory - Blue Cave Tiles_95
+  - first:
+      213: -3869159201740008465
+    second: PC Computer - MapleStory - Blue Cave Tiles_96
+  - first:
+      213: -5770737944239279840
+    second: PC Computer - MapleStory - Blue Cave Tiles_97
+  - first:
+      213: 1364230766122323718
+    second: PC Computer - MapleStory - Blue Cave Tiles_98
+  - first:
+      213: 9172345112799655405
+    second: PC Computer - MapleStory - Blue Cave Tiles_99
+  - first:
+      213: -2745767515759599358
+    second: PC Computer - MapleStory - Blue Cave Tiles_100
+  - first:
+      213: -6798443068614785329
+    second: PC Computer - MapleStory - Blue Cave Tiles_101
+  - first:
+      213: -1061100886854384888
+    second: PC Computer - MapleStory - Blue Cave Tiles_102
+  - first:
+      213: 2622770807380398948
+    second: PC Computer - MapleStory - Blue Cave Tiles_103
+  - first:
+      213: 6499092844667461534
+    second: PC Computer - MapleStory - Blue Cave Tiles_104
+  - first:
+      213: -515463086850331687
+    second: PC Computer - MapleStory - Blue Cave Tiles_105
+  - first:
+      213: -3878920884963536307
+    second: PC Computer - MapleStory - Blue Cave Tiles_106
+  - first:
+      213: 4188874222539705014
+    second: PC Computer - MapleStory - Blue Cave Tiles_107
+  - first:
+      213: 2194470132858166580
+    second: PC Computer - MapleStory - Blue Cave Tiles_108
+  - first:
+      213: 4765948528528450396
+    second: PC Computer - MapleStory - Blue Cave Tiles_109
+  - first:
+      213: -3806630802880451373
+    second: PC Computer - MapleStory - Blue Cave Tiles_110
+  - first:
+      213: -5290348372026675822
+    second: PC Computer - MapleStory - Blue Cave Tiles_111
+  - first:
+      213: 5729928906008934011
+    second: PC Computer - MapleStory - Blue Cave Tiles_112
+  - first:
+      213: 8760417540902731110
+    second: PC Computer - MapleStory - Blue Cave Tiles_113
+  - first:
+      213: -725525272502814558
+    second: PC Computer - MapleStory - Blue Cave Tiles_114
+  - first:
+      213: 6378479727096742404
+    second: PC Computer - MapleStory - Blue Cave Tiles_115
+  - first:
+      213: 1195494636783381533
+    second: PC Computer - MapleStory - Blue Cave Tiles_116
+  - first:
+      213: 3781477926648394614
+    second: PC Computer - MapleStory - Blue Cave Tiles_117
+  - first:
+      213: -7352263956047259692
+    second: PC Computer - MapleStory - Blue Cave Tiles_118
+  - first:
+      213: 5244817320263095611
+    second: PC Computer - MapleStory - Blue Cave Tiles_119
+  - first:
+      213: 1241582606719595475
+    second: PC Computer - MapleStory - Blue Cave Tiles_120
+  - first:
+      213: -5747434141800007427
+    second: PC Computer - MapleStory - Blue Cave Tiles_121
+  - first:
+      213: -2499167346166101727
+    second: PC Computer - MapleStory - Blue Cave Tiles_122
+  - first:
+      213: 6124376246688061393
+    second: PC Computer - MapleStory - Blue Cave Tiles_123
+  - first:
+      213: 8990469684314939972
+    second: PC Computer - MapleStory - Blue Cave Tiles_124
+  - first:
+      213: -6459156516350771769
+    second: PC Computer - MapleStory - Blue Cave Tiles_125
+  - first:
+      213: 1177364214813925457
+    second: PC Computer - MapleStory - Blue Cave Tiles_126
+  - first:
+      213: -5613764893468850173
+    second: PC Computer - MapleStory - Blue Cave Tiles_127
+  - first:
+      213: 3521454192337684271
+    second: PC Computer - MapleStory - Blue Cave Tiles_128
+  - first:
+      213: 7757590192393322244
+    second: PC Computer - MapleStory - Blue Cave Tiles_129
+  - first:
+      213: 3925423005204792213
+    second: PC Computer - MapleStory - Blue Cave Tiles_130
+  - first:
+      213: 4468551508945830126
+    second: PC Computer - MapleStory - Blue Cave Tiles_131
+  - first:
+      213: 1574888315333710709
+    second: PC Computer - MapleStory - Blue Cave Tiles_132
+  - first:
+      213: -5674225060315811660
+    second: PC Computer - MapleStory - Blue Cave Tiles_133
+  - first:
+      213: -3682557711943928324
+    second: PC Computer - MapleStory - Blue Cave Tiles_134
+  - first:
+      213: -7342684446574346215
+    second: PC Computer - MapleStory - Blue Cave Tiles_137
+  - first:
+      213: 6003249513691188770
+    second: PC Computer - MapleStory - Blue Cave Tiles_138
+  - first:
+      213: 1769092954899664325
+    second: PC Computer - MapleStory - Blue Cave Tiles_139
+  - first:
+      213: -214393651512685189
+    second: PC Computer - MapleStory - Blue Cave Tiles_140
+  - first:
+      213: 8102292981870923790
+    second: PC Computer - MapleStory - Blue Cave Tiles_141
+  - first:
+      213: -6186714380701827316
+    second: PC Computer - MapleStory - Blue Cave Tiles_135
+  - first:
+      213: -6664952426408248250
+    second: PC Computer - MapleStory - Blue Cave Tiles_136
+  - first:
+      213: -6488261167519670414
+    second: PC Computer - MapleStory - Blue Cave Tiles_142
+  - first:
+      213: 4498656690774066515
+    second: PC Computer - MapleStory - Blue Cave Tiles_143
+  - first:
+      213: -5322811283235875785
+    second: PC Computer - MapleStory - Blue Cave Tiles_144
+  - first:
+      213: 3983749179988376756
+    second: PC Computer - MapleStory - Blue Cave Tiles_145
+  - first:
+      213: 6214176933535802807
+    second: PC Computer - MapleStory - Blue Cave Tiles_146
+  - first:
+      213: -1966387485462947734
+    second: PC Computer - MapleStory - Blue Cave Tiles_147
+  - first:
+      213: -5579542908966631860
+    second: PC Computer - MapleStory - Blue Cave Tiles_148
+  - first:
+      213: -8463924281409203475
+    second: PC Computer - MapleStory - Blue Cave Tiles_149
+  - first:
+      213: -6744895303876623810
+    second: PC Computer - MapleStory - Blue Cave Tiles_150
+  - first:
+      213: -3478623411671689706
+    second: PC Computer - MapleStory - Blue Cave Tiles_151
+  - first:
+      213: 2685787607005121360
+    second: PC Computer - MapleStory - Blue Cave Tiles_152
+  - first:
+      213: -3767664242282008517
+    second: PC Computer - MapleStory - Blue Cave Tiles_153
+  - first:
+      213: -5532236437196770091
+    second: PC Computer - MapleStory - Blue Cave Tiles_154
+  - first:
+      213: -9097513434297927816
+    second: PC Computer - MapleStory - Blue Cave Tiles_155
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 409
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bc00c53da7b2ad0800000000000000
+      internalID: -2725950101242459238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 418
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d676ef3cf85f980800000000000000
+      internalID: -8505734249269727981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_2
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 418
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a544245f78cdc320800000000000000
+      internalID: 2579938610751227302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 408
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762fba5123fa25240800000000000000
+      internalID: 4779074784240333415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 322
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19954bdd0346e8cd0800000000000000
+      internalID: -2553993777631700591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 333
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af3d5e2fc48e8390800000000000000
+      internalID: -7814162278070272092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_6
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 318
+        width: 90
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114e89f15bdc73ec0800000000000000
+      internalID: -3587172400374422511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_7
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 323
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ce689facfa24900800000000000000
+      internalID: 667288981108878358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 240
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389614bc0df315810800000000000000
+      internalID: 1752251896019642755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_9
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 240
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0c90a41e5fa3640800000000000000
+      internalID: 5060627479262773451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 240
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79fa4afcbbeacd10800000000000000
+      internalID: 2146787369281059199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_11
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 240
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b2dde47c9b89e90800000000000000
+      internalID: -7018655753584170238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 240
+        width: 29
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5123c91eafff090800000000000000
+      internalID: -7998398566291597904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_13
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 239
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4436c5822a27682c0800000000000000
+      internalID: -4429727142684892348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_14
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 239
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3882f56f74eeed060800000000000000
+      internalID: 6980278465314367619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_15
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 92
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaab61fffbb068ed0800000000000000
+      internalID: -2412227631163983186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 93
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9714dba55fc7f1140800000000000000
+      internalID: 4692606729974530425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 93
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee38439acddc54e0800000000000000
+      internalID: -1991473073080484115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - MapleStory - Blue Cave Tiles_18
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 92
+        width: 90
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a811731d6bf81180800000000000000
+      internalID: -9144282597479606107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
