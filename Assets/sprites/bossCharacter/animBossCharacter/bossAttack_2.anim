@@ -20,16 +20,13 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -3764162302112819064, guid: a474a71c49917a24a9161a60d978c79f,
-        type: 3}
+      value: {fileID: -3764162302112819064, guid: a474a71c49917a24a9161a60d978c79f, type: 3}
     - time: 0.16666667
-      value: {fileID: -3920615337694671022, guid: a474a71c49917a24a9161a60d978c79f,
-        type: 3}
+      value: {fileID: -3920615337694671022, guid: a474a71c49917a24a9161a60d978c79f, type: 3}
     - time: 0.36666667
       value: {fileID: 73265276923504918, guid: a474a71c49917a24a9161a60d978c79f, type: 3}
     - time: 0.53333336
-      value: {fileID: 9037402139136289482, guid: a474a71c49917a24a9161a60d978c79f,
-        type: 3}
+      value: {fileID: 9037402139136289482, guid: a474a71c49917a24a9161a60d978c79f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -77,4 +74,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: AttackCharacter
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

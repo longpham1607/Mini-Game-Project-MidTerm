@@ -7,7 +7,7 @@ public class mainCharacterController : MonoBehaviour
     Rigidbody2D rigid;
     public float moveSpeed = 40f;
     float currentMove;
-    bool isMove = false;
+    //bool isMove = false;
 
     public bool useForce = false;
 
@@ -17,12 +17,12 @@ public class mainCharacterController : MonoBehaviour
     SpriteRenderer Srenderer;
 
     Animator anim;
-
+  
 
     //attack của main character
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask enemyLayers; 
+    public LayerMask enemyLayers;
     //Lấy game object về đạn có sẵn trong prefab để điều khiển việc bắn đạn
     //public GameObject bullet;
 
@@ -63,7 +63,7 @@ public class mainCharacterController : MonoBehaviour
             currentMove = -moveSpeed;
 
             //Xoay hình sang bên trái
-            Srenderer.flipX = true ;
+            Srenderer.flipX = true;
 
             //Gọi animation walking chạy 1 lần
             anim.Play("moving");
@@ -91,7 +91,7 @@ public class mainCharacterController : MonoBehaviour
         if (Input.GetKey("c"))
         {
             //Gọi animation walking chạy 1 lần
-            
+
             Attack();
         }
         if (Input.GetKey("x"))
@@ -107,9 +107,9 @@ public class mainCharacterController : MonoBehaviour
         anim.Play("attacking_2");
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        foreach(Collider2D enemy in hitEnemies)
+        foreach (Collider2D enemy in hitEnemies)
         {
-            Debug.Log("we hit"+enemy.name);
+            Debug.Log("we hit" + enemy.name);
             enemy.GetComponent<enemyScript>().TakeDamage(1);
         }
     }
@@ -119,8 +119,8 @@ public class mainCharacterController : MonoBehaviour
         if (attackPoint == null) return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
-    
-     //Xử lý vật lý ở fixed update
+
+    //Xử lý vật lý ở fixed update
     private void FixedUpdate()
     {
         //Làm đóng băng góc xoay để tránh bị tác động của lực vật lý làm nhân vật lăn lộn
@@ -142,22 +142,22 @@ public class mainCharacterController : MonoBehaviour
     }
 
     //Phương thức sự kiện khi 2 collider bắt đầu đụng nhau (không có obj nào có isTrigger)
-   /* private void OnCollisionEnter2D(Collision2D collision)
-    {
-        //Kiểm tra collider còn lại thông qua tag hoặc name
-        if (collision.transform.tag.Equals("Ground"))
-            Debug.Log("Enter collider");
-    }
+    /* private void OnCollisionEnter2D(Collision2D collision)
+     {
+         //Kiểm tra collider còn lại thông qua tag hoặc name
+         if (collision.transform.tag.Equals("Ground"))
+             Debug.Log("Enter collider");
+     }
 
-    //Phương thức sự kiện khi 2 collider bắt đầu tách ra nhau (không có obj nào có isTrigger)
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        Debug.Log("Exit collider");
-    }
+     //Phương thức sự kiện khi 2 collider bắt đầu tách ra nhau (không có obj nào có isTrigger)
+     private void OnCollisionExit2D(Collision2D collision)
+     {
+         Debug.Log("Exit collider");
+     }
 
-    //Phương thức sự kiện khi 1 collider đụng với 1 collider khác có isTrigger (dùng để kích hoạt bẫy tàng hình chẳng hạn)
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        Debug.Log("Enter trigger");
-    }*/
+     //Phương thức sự kiện khi 1 collider đụng với 1 collider khác có isTrigger (dùng để kích hoạt bẫy tàng hình chẳng hạn)
+     private void OnTriggerEnter2D(Collider2D collision)
+     {
+         Debug.Log("Enter trigger");
+     }*/
 }

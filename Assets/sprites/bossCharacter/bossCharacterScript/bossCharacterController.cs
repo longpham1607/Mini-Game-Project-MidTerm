@@ -7,7 +7,7 @@ public class bossCharacterController : MonoBehaviour
     Rigidbody2D rigid;
     public float moveSpeed = 40f;
     float currentMove;
-    bool isMove = false;
+    //bool isMove = false;
 
     public bool useForce = false;
 
@@ -22,7 +22,7 @@ public class bossCharacterController : MonoBehaviour
     //attack của main character
     public Transform attackPoint;
     public float attackRange = 0.5f;
-    public LayerMask enemyLayers;
+    public LayerMask playerLayers;
     //Lấy game object về đạn có sẵn trong prefab để điều khiển việc bắn đạn
     //public GameObject bullet;
 
@@ -51,42 +51,42 @@ public class bossCharacterController : MonoBehaviour
         //        transform.position.y, transform.position.z), Quaternion.identity);
 
         //Gán tốc độ nhảy chứ ko xử trực tiếp ở update, xử lý vật lý ở fixed update
-        if (Input.GetKey("w"))
-        {
-            jumpMove = jumpSpeed;
-        }
+        //if (Input.GetKey("w"))
+        //{
+        //    jumpMove = jumpSpeed;
+        //}
 
-        //Gán tốc độ đi chứ ko xử trực tiếp ở update, xử lý vật lý ở fixed update
-        if (Input.GetKey("a"))
-        {
-            //Đi trái thì hướng phải ngược lại, do đó có giá trị âm
-            currentMove = -moveSpeed;
+        ////Gán tốc độ đi chứ ko xử trực tiếp ở update, xử lý vật lý ở fixed update
+        //if (Input.GetKey("a"))
+        //{
+        //    //Đi trái thì hướng phải ngược lại, do đó có giá trị âm
+        //    currentMove = -moveSpeed;
 
-            //Xoay hình sang bên trái
-            Srenderer.flipX = false;
+        //    //Xoay hình sang bên trái
+        //    Srenderer.flipX = false;
 
-            //Gọi animation walking chạy 1 lần
-            anim.Play("moving");
-        }
-        else
-        {
-            if (Input.GetKey("d"))
-            {
-                //Đi phải thì hướng cùng chiều, do đó có giá trị dương
-                currentMove = moveSpeed;
+        //    //Gọi animation walking chạy 1 lần
+        //    anim.Play("moving");
+        //}
+        //else
+        //{
+        //    if (Input.GetKey("d"))
+        //    {
+        //        //Đi phải thì hướng cùng chiều, do đó có giá trị dương
+        //        currentMove = moveSpeed;
 
-                //Xoay hình sang bên trái
-                Srenderer.flipX = true;
+        //        //Xoay hình sang bên trái
+        //        Srenderer.flipX = true;
 
-                //Gọi animation walking chạy 1 lần
-                anim.Play("moving");
-            }
-            else
-            {
-                //Nếu không di chuyển (không nhấn nút nào), gán giá trị tốc độ = 0 (đứng yên)
-                currentMove = 0;
-            }
-        }
+        //        //Gọi animation walking chạy 1 lần
+        //        anim.Play("moving");
+        //    }
+        //    else
+        //    {
+        //        //Nếu không di chuyển (không nhấn nút nào), gán giá trị tốc độ = 0 (đứng yên)
+        //        currentMove = 0;
+        //    }
+        //}
 
         /*if (Input.GetKey("c"))
         {
@@ -94,31 +94,33 @@ public class bossCharacterController : MonoBehaviour
 
             Attack();
         }*/
-        if (Input.GetKey("j"))
-        {
-            //Gọi animation walking chạy 1 lần
-            anim.Play("attack_1");
-        }
+        //if (Input.GetKey("j"))
+        //{
+        //    //Gọi animation walking chạy 1 lần
+        //    anim.Play("attack_1");
+        //}
 
     }
 
-    /* void Attack()
+     public void AttackCharacter()
      {
-         anim.Play("attacking_2");
-         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-         foreach (Collider2D enemy in hitEnemies)
-         {
-             Debug.Log("we hit" + enemy.name);
-             enemy.GetComponent<enemyScript>().TakeDamage(1);
-         }
-     }*/
+       
+        Collider2D colInfo = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayers);
+        if (colInfo != null)
+        {
+            colInfo.GetComponent<mainCharacterHealth>().mainCharacterTakeDamage(10);
+        }
+    
 
-    /*void OnDrawGizmosSelected()
+   
+     }
+
+    void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
-    }*/
+    }
 
     //Xử lý vật lý ở fixed update
     private void FixedUpdate()
