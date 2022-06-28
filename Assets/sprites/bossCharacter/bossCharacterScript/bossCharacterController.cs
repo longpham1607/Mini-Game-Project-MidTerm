@@ -111,9 +111,6 @@ public class bossCharacterController : MonoBehaviour
         {
             colInfo.GetComponent<mainCharacterHealth>().mainCharacterTakeDamage(10);
         }
-    
-
-   
      }
 
     void OnDrawGizmosSelected()

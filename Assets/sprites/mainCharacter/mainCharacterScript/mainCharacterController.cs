@@ -23,6 +23,7 @@ public class mainCharacterController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
+    
     //Lấy game object về đạn có sẵn trong prefab để điều khiển việc bắn đạn
     //public GameObject bullet;
 
@@ -39,6 +40,7 @@ public class mainCharacterController : MonoBehaviour
         Srenderer = GetComponent<SpriteRenderer>();
 
         anim = GetComponent<Animator>();
+
     }
 
     // Lưu ý: xử lý input thì ở update, xử lý vật lý ở fixed update
@@ -92,25 +94,25 @@ public class mainCharacterController : MonoBehaviour
         {
             //Gọi animation walking chạy 1 lần
 
-            Attack();
+            Attack("attacking_2",2);
         }
         if (Input.GetKey("x"))
         {
             //Gọi animation walking chạy 1 lần
-            anim.Play("attacking_1");
+            Attack("attacking_1",1);
         }
 
     }
 
-    void Attack()
+    void Attack(string nameSkill, int dmg)
     {
-        anim.Play("attacking_2");
+        anim.Play(nameSkill);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
         {
             Debug.Log("we hit" + enemy.name);
-            enemy.GetComponent<enemyScript>().TakeDamage(1);
+            enemy.GetComponent<enemyScript>().TakeDamage(dmg);
         }
     }
 

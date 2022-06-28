@@ -10,11 +10,12 @@ public class enemyScript : MonoBehaviour
     public Animator anim;
     public Transform player;
     public bool isFlipped = false;
-
+    public HealthBar healthBar;
     void Start()
     {
         currentHealth = maxHeath;
         anim = GetComponent<Animator>();
+        healthBar.SetMaxHealth(maxHeath);
     }
 
     // Update is called once per frame
@@ -22,9 +23,11 @@ public class enemyScript : MonoBehaviour
     {
         currentHealth -= damage;
         anim.Play("get_hurt");
+        healthBar.SetHealth(currentHealth);
         if (currentHealth<=0)
         {
             Die();
+            Application.LoadLevel("Level2");
         }
     }
     void Die()
@@ -32,11 +35,11 @@ public class enemyScript : MonoBehaviour
         anim.Play("die");
         Debug.Log("enemy Die");
         this.enabled = false;
+        gameObject.SetActive(false);
+        
     }
 
 
-
-  
     public void LookAtPlayer()
     {
         Vector3 flipped = transform.localScale;
