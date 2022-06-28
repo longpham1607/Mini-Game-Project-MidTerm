@@ -113,6 +113,17 @@ public class bossCharacterController : MonoBehaviour
         }
      }
 
+    public void EnragedAttackCharacter()
+    {
+
+
+        Collider2D colInfo = Physics2D.OverlapCircle(attackPoint.position, attackRange, playerLayers);
+        if (colInfo != null)
+        {
+            colInfo.GetComponent<mainCharacterHealth>().mainCharacterTakeDamage(100);
+        }
+    }
+
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;

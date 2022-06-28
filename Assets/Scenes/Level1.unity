@@ -1886,6 +1886,7 @@ MonoBehaviour:
   player: {fileID: 1873423010}
   isFlipped: 0
   healthBar: {fileID: 195179254}
+  isInvulnerable: 0
 --- !u!1 &636705735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3917,12 +3918,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   useForce: 0
-  jumpSpeed: 5
+  jumpSpeed: 7
   attackPoint: {fileID: 1974739232}
   attackRange: 1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
+  timeBetweenAttack: 1.5
 --- !u!95 &1873423012
 Animator:
   serializedVersion: 3

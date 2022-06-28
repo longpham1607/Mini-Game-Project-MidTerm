@@ -27,7 +27,7 @@ public class mainCharacterHealth : MonoBehaviour
         {
 
             Die();
-            Application.LoadLevel("menu");
+            Application.LoadLevel("Level2");
             return;
         }
     }

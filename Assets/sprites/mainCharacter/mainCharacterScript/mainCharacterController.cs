@@ -23,7 +23,8 @@ public class mainCharacterController : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    
+    public float timeBetweenAttack=1.2f;
+    bool canAttack;
     //Lấy game object về đạn có sẵn trong prefab để điều khiển việc bắn đạn
     //public GameObject bullet;
 
@@ -40,6 +41,7 @@ public class mainCharacterController : MonoBehaviour
         Srenderer = GetComponent<SpriteRenderer>();
 
         anim = GetComponent<Animator>();
+        canAttack = true;
 
     }
 
@@ -53,7 +55,7 @@ public class mainCharacterController : MonoBehaviour
         //        transform.position.y, transform.position.z), Quaternion.identity);
 
         //Gán tốc độ nhảy chứ ko xử trực tiếp ở update, xử lý vật lý ở fixed update
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canAttack)
         {
             jumpMove = jumpSpeed;
         }
@@ -90,13 +92,13 @@ public class mainCharacterController : MonoBehaviour
             }
         }
 
-        if (Input.GetKey("c"))
+        if (Input.GetKey("c")&&canAttack)
         {
             //Gọi animation walking chạy 1 lần
 
             Attack("attacking_2",2);
         }
-        if (Input.GetKey("x"))
+        if (Input.GetKey("x") && canAttack)
         {
             //Gọi animation walking chạy 1 lần
             Attack("attacking_1",1);
@@ -106,6 +108,7 @@ public class mainCharacterController : MonoBehaviour
 
     void Attack(string nameSkill, int dmg)
     {
+        canAttack = false;
         anim.Play(nameSkill);
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -114,7 +117,17 @@ public class mainCharacterController : MonoBehaviour
             Debug.Log("we hit" + enemy.name);
             enemy.GetComponent<enemyScript>().TakeDamage(dmg);
         }
+
+        StartCoroutine(AttackCooldown());
     }
+
+
+    IEnumerator AttackCooldown()
+    {
+        yield return new WaitForSeconds(timeBetweenAttack);
+        canAttack = true;
+    }
+
 
     void OnDrawGizmosSelected()
     {

@@ -11,6 +11,7 @@ public class enemyScript : MonoBehaviour
     public Transform player;
     public bool isFlipped = false;
     public HealthBar healthBar;
+    public bool isInvulnerable = false;
     void Start()
     {
         currentHealth = maxHeath;
@@ -21,14 +22,22 @@ public class enemyScript : MonoBehaviour
     // Update is called once per frame
     public void TakeDamage(int damage)
     {
+        if (isInvulnerable==true) return;
+
         currentHealth -= damage;
         anim.Play("get_hurt");
         healthBar.SetHealth(currentHealth);
-        if (currentHealth<=0)
+
+        if(currentHealth<=70)
         {
-            Die();
-            Application.LoadLevel("Level2");
+            GetComponent<Animator>().SetBool("isEnraged", true);
         }
+
+        //if (currentHealth<=0)
+        //{
+        //    Die();
+        //    Application.LoadLevel("Menu");
+        //}
     }
     void Die()
     {
