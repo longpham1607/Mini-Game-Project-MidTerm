@@ -46,6 +46,7 @@ public class DialogManager : MonoBehaviour
                 currentLine = 0;
                 dialogBox.SetActive(false);
                 OnCloseDialog?.Invoke();
+                Application.LoadLevel("Level3");
             }
         }
     }
@@ -54,7 +55,6 @@ public class DialogManager : MonoBehaviour
     {
         isTyping = true;
         diaglogText.text = "";
-       // Debug.Log(line);
         foreach (var letter in line.ToCharArray())
         {
             diaglogText.text += letter;
